@@ -1,7 +1,6 @@
 package jrnnlm.test.training;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 
 import jrnnlm.core.RNNLM;
@@ -23,7 +22,6 @@ public class SmallParallelTest {
         RNNLM rnn = new RNNLM(conf);
         ParallelTrainer trainer = new ParallelTrainer(rnn, 4);
         trainer.train();
-        rnn.save(argv[2]);
 
     }
 }
