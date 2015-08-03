@@ -3,7 +3,7 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Scanner;
 
-import javafx.util.Pair;
+import jrnnlm.utils.Pair;
 import jrnnlm.core.LMSaver;
 import jrnnlm.core.RNNLM;
 import jrnnlm.core.scanner.StringArrayIndexScanner;

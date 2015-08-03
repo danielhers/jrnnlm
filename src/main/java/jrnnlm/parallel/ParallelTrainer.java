@@ -15,7 +15,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
-import javafx.util.Pair;
+import jrnnlm.utils.Pair;
 import jrnnlm.core.LMSaver;
 import jrnnlm.core.RNNLM;
 import jrnnlm.core.RNNLMConfiguration;

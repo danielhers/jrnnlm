@@ -7,7 +7,7 @@ import java.io.ObjectOutputStream;
 import java.io.Serializable;
 import java.util.Arrays;
 
-import javafx.util.Pair;
+import jrnnlm.utils.Pair;
 import jrnnlm.core.scanner.FileScanner;
 import jrnnlm.core.scanner.RawScanner;
 import jrnnlm.core.scanner.StreamScanner;
